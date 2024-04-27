@@ -46,14 +46,13 @@ h1 {
     /* gap: 100px; */
 }
 
-.col {
-    /* these are now flex items */
-    width: 100%;
-}
+/* .col {
+    these are now flex items
+}*/
 
-.col + .col {
+/*.col + .col {
     margin-left: 30px;
-}
+}*/
 
 .hero {
     padding: 100px 0;
@@ -61,13 +60,12 @@ h1 {
     color: #FFF;
 }
 
-.hero__text { 
+.hero-text { 
     width: 62%;
 }
 
-.hero__img {
+.hero-img {
     width: 32%;
-    align-self: flex-start;
 }
 
 .hero p {
